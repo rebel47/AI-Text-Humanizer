@@ -1,7 +1,3 @@
-Here’s a comprehensive `README.md` file for your GitHub repository. It provides an overview of the project, instructions for setting it up, and details about how to use the application.
-
----
-
 # **AI Text Humanizer**
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
