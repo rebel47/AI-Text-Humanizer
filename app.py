@@ -16,7 +16,7 @@ def humanize_text(text, tone="neutral"):
     """
     Rewrites the input text to make it sound more human-like.
     """
-    prompt = f"Ae chikne sun wo na jo text de raha hun usko manushya ki bhasha mein parivartan kripya kar kare, mere ko thesis krni hai to matlab koi ai software pakad na sake aisa krdo. KRDO PLEASE KRDO!! tumhe tumhari mummy kasam. or tone aisa krdo {tone}"
+    prompt = f"Ae chikne sun wo na jo text de raha hun usko manushya ki bhasha mein parivartan kripya kar kare, mere ko thesis krni hai to matlab koi ai software pakad na sake aisa krdo. KRDO PLEASE KRDO!! tumhe tumhari mummy kasam. or tone aisa krdo {tone} or isko ENGLISH mein hi de bhai"
     #Rewrite the following text in a {tone} tone to make it sound more human-like.Use natural language, add variety in sentence structure, and include subtle conversational elements.  Ensure the length and meaning remain unchanged:\n\n{text}
     response = model.generate_content(prompt)
     return response.text
